@@ -1,0 +1,6 @@
+$ make
+g++ -c lab2.cpp
+g++ -c BMI.cpp
+g++ -o lab2 lab2.o BMI.o
+$ make clean
+rm lab2*.o BMI*.o
